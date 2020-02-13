@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="443dp"
+
+
+        android:layout_height="700dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.401">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="723dp">
+
+
+            <TextView
+                android:id="@+id/view"
+                android:layout_width="128dp"
+                android:layout_height="28dp"
+                android:background="@drawable/spiner1"
+                android:text="VIEW PACKEGES"
+                android:textColor="#000046"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.84"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.951" />
+
+
+            <TextView
+                android:id="@+id/id123"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+
+                android:textColor="#F7F7FF"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.107"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.951" />
+
+            <TextView
+                android:id="@+id/map2"
+                android:layout_width="51dp"
+                android:layout_height="47dp"
+                android:drawableStart="@drawable/sh"
+                android:drawableLeft="@drawable/sh"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.283"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.892" />
+
+            <EditText
+                android:id="@+id/smstxt"
+                android:layout_width="311dp"
+                android:layout_height="55dp"
+                android:background="@drawable/spiner1"
+                android:drawableStart="@drawable/msg"
+                android:drawableLeft="@drawable/msg"
+                android:ems="10"
+                android:hint="Enter Message"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:textColor="@color/black"
+                android:textColorHint="#85000000"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.318"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.76" />
+
+            <TextView
+                android:id="@+id/phcall"
+                android:layout_width="51dp"
+                android:layout_height="47dp"
+                android:drawableStart="@drawable/call"
+                android:drawableLeft="@drawable/call"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.522"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.893" />
+
+            <TextView
+                android:id="@+id/phmsg"
+                android:layout_width="51dp"
+                android:layout_height="47dp"
+                android:drawableStart="@drawable/sent"
+                android:drawableLeft="@drawable/sent"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.908"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.761" />
+
+            <com.comix.rounded.RoundedCornerImageView
+                android:id="@+id/t_name11"
+                android:layout_width="399dp"
+                android:layout_height="267dp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerCrop"
+                app:cornerBottomDisable="false"
+                app:cornerLeftDisable="false"
+                app:cornerRadius="6dp"
+                app:cornerRightDisable="false"
+                app:cornerTopDisable="false"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.024" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="107dp"
+                android:layout_height="wrap_content"
+                android:text=" Vechile Name"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.125"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.406" />
+
+            <TextView
+                android:id="@+id/t_discription1"
+                android:layout_width="362dp"
+                android:layout_height="47dp"
+                android:background="@drawable/btnn"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.518"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.451" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:inputType="textMultiLine"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.133"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/pph2"
+                android:layout_width="362dp"
+                android:layout_height="47dp"
+                android:background="@drawable/btnn"
+                android:ems="10"
+                android:padding="12dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.518"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.548" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="214dp"
+                android:layout_height="19dp"
+                android:text=" Phone Number"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.183"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.592" />
+
+            <TextView
+                android:id="@+id/pph1"
+                android:layout_width="365dp"
+                android:layout_height="54dp"
+                android:background="@drawable/btnn"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.538"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.65" />
+
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
